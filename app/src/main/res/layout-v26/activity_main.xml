@@ -148,16 +148,6 @@
         app:layout_constraintTop_toBottomOf="@+id/textView22" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="121dp"
-        android:layout_height="120dp"
-        android:layout_marginBottom="160dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@android:drawable/sym_def_app_icon" />
-
-    <ImageView
         android:id="@+id/imageView2"
         android:layout_width="83dp"
         android:layout_height="76dp"
@@ -171,13 +161,13 @@
         android:id="@+id/button9"
         android:layout_width="121dp"
         android:layout_height="65dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginLeft="72dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="44dp"
         android:background="#E12C42E9"
         android:text="save"
-        android:textSize="24sp"
         android:textColor="#fff"
+        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
@@ -185,15 +175,24 @@
         android:id="@+id/button10"
         android:layout_width="121dp"
         android:layout_height="65dp"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="68dp"
-        android:layout_marginRight="68dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
         android:background="#E91E1E"
         android:text="exit"
         android:textColor="#fff"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="128dp"
+        android:layout_height="125dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_android_black_24dp"
+        tools:layout_editor_absoluteY="450dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
